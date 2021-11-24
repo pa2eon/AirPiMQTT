@@ -5,7 +5,7 @@ The file airpymqtt.py file will check the next sensors:
 * DHT22
 * BMP085
 
-And will send the result via MQTT to Home Assistant Core.
+And will send the result via MQTT to Home Assistant Core.<br>
 In HA and on Rpi make the MQTT plugin (server/clinet) active and use in HA the next script code:
 
 -- platform: mqtt <br>
