@@ -12,7 +12,7 @@ In HA and on Rpi make the MQTT plugin (server/clinet) active and use in HA the n
   state_topic: "room/temperature" <br>
   name: Kantoor temperatuur<br>
   unit_of_measurement: '°C'<br>
-    <p>  
+  <p>
 -- platform: mqtt<br>
   state_topic: "room/humidity"<br>
   name: Kantoor vochtigheid<br>
