@@ -4,6 +4,7 @@ Use the AirPi v1.2 PCB board on Rpi and use MQTT
 The file airpymqtt.py file will check the next sensors:
 * DHT22
 * BMP085
+* Red LED indicator
 
 And will send the result via MQTT to Home Assistant Core.<br>
 In HA and on Rpi make the MQTT plugin (server/clinet) active and use in HA the next script code:
