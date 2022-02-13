@@ -31,7 +31,8 @@ redPin = 10
 GPIO.setup(redPin,GPIO.OUT)
 
 # MQTT details
-MQTT_BROKER="127.0.0.1"
+MQTT_BROKER="127.0.0.1"         # If the AirPi is the MQTT broker
+# MQTT_BROKER="192.168.x.x"       # If you have HA as broker 
 MQTT_PORT=1883
 
 # Output file name
